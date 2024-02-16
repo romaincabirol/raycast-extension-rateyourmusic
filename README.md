@@ -1,5 +1,3 @@
-# rateyourmusic
-
-WIP
-Search for an artist or a release in RateYourMusic
+# Rate Your Music
+Search Rate Your Music from within Raycast
 
