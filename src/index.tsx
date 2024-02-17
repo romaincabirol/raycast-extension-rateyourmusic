@@ -1,4 +1,4 @@
-import { List, ActionPanel, open, Action, Icon } from "@raycast/api";
+import { List, ActionPanel, open, Action } from "@raycast/api";
 import { useState } from "react";
 
 export default function SearchRateYourMusic() {
