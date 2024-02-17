@@ -19,7 +19,7 @@ export default function SearchRateYourMusic() {
           <List.Dropdown.Item title="Everything" value="everything" />
           <List.Dropdown.Item title="Artist" value="artist" />
           <List.Dropdown.Item title="Release" value="release" />
-          <List.Dropdown.Item title="Genre" value="genre" /> {}
+          <List.Dropdown.Item title="Genre" value="genre" />
         </List.Dropdown>
       }
     >
