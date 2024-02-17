@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "rateyourmusic",
-  "title": "Rate Your Music",
-  "description": "What is the review of this album in RateYourMusic?",
+  "name": "rateyourmusic-search",
+  "title": "Rate Your Music Search",
+  "description": "Search Rate Your Music in Raycast",
   "icon": "extension_icon.png",
   "author": "leepyd",
   "categories": [
@@ -11,9 +11,9 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "index",
-      "title": "Search on RateYourMusic",
-      "description": "Opens RateYourMusic with your search query in the URL",
+      "name": "rym-search",
+      "title": "Search on Rate Your Music",
+      "description": "Opens Rate Your Music with your search query in the URL",
       "mode": "view"
     }
   ],
