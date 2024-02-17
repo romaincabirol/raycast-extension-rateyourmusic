@@ -34,20 +34,23 @@ export default function SearchRateYourMusic() {
                 const searchParams = {
                   artist: "&searchtype=a",
                   release: "&searchtype=l",
-                  genre: `/genre/${encodeURIComponent(query)}`
+                  genre: `/genre/${encodeURIComponent(query)}`,
                 };
                 let url = `${baseUrl}/search?searchterm=${encodeURIComponent(query)}`;
                 if (selectedType === "everything") {
                   open(url);
                 } else if (selectedType in searchParams) {
-                  url = selectedType === "genre" ? `${baseUrl}${searchParams[selectedType]}` : `${url}${searchParams[selectedType]}`;
+                  url =
+                    selectedType === "genre"
+                      ? `${baseUrl}${searchParams[selectedType]}`
+                      : `${url}${searchParams[selectedType]}`;
                   open(url);
                 }
               }}
             />
           </ActionPanel>
         }
-      /> 
+      />
     </List>
   );
 }
