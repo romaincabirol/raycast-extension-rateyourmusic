@@ -1,3 +1,4 @@
-# rateyourmusic Changelog
+# Rate Your Music Search Changelog
 
-## [Initial Version] - 2024-02-16
+## [Initial Version] - 2024-02-17
+Initial version code
